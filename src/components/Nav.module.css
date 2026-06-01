@@ -1,0 +1,106 @@
+.nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 24px 0;
+  transition: padding 0.3s, background 0.3s, border-color 0.3s;
+  border-bottom: 1px solid transparent;
+}
+.scrolled {
+  padding: 16px 0;
+  background: rgba(10,10,10,0.92);
+  backdrop-filter: blur(16px);
+  border-bottom-color: var(--border);
+}
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.logo {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 22px;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  margin-right: auto;
+}
+.logoAccent { color: var(--accent); }
+.links {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+.links button {
+  background: none;
+  border: none;
+  color: var(--text2);
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: color 0.2s, background 0.2s;
+}
+.links button:hover { color: var(--text); background: var(--bg3); }
+.cta {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--bg);
+  background: var(--accent);
+  padding: 8px 18px;
+  border-radius: 3px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: background 0.2s, transform 0.15s;
+  white-space: nowrap;
+}
+.cta:hover { background: var(--accent2); transform: translateY(-1px); }
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  padding: 4px;
+}
+.burger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  transition: transform 0.2s, opacity 0.2s;
+}
+.mobile {
+  display: none;
+  flex-direction: column;
+  padding: 16px 32px 24px;
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+  gap: 4px;
+}
+.mobile button, .mobile a {
+  background: none;
+  border: none;
+  color: var(--text2);
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 0;
+  text-align: left;
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: color 0.2s;
+}
+.mobile button:hover, .mobile a:hover { color: var(--accent); }
+.mobile a { color: var(--accent); }
+@media (max-width: 768px) {
+  .links, .cta { display: none; }
+  .burger { display: flex; margin-left: auto; }
+  .mobile { display: flex; }
+}
