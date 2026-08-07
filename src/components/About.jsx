@@ -8,7 +8,7 @@ export default function About() {
   return (
     <section id="about" className={styles.about}>
       <div className="container">
-        <p className="section-label">About</p>
+        <p className="section-label">The Man Behind the Mask</p>
         <div className={styles.grid}>
           <motion.div className={styles.left}
             initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.6 }}>
@@ -23,7 +23,7 @@ export default function About() {
 
           <motion.div className={styles.right}
             initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.6, delay: 0.15 }}>
-            <div className="tag">01 — About Me</div>
+            <div className="tag">01 — Secret Identity</div>
             <h2 className={styles.heading}>I build things that<br /><span className={styles.hl}>fix real frustrations</span></h2>
             {about.bio.map((p, i) => (
               <p key={i} className={styles.para}>{p}</p>

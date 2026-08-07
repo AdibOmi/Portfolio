@@ -6,9 +6,11 @@
   align-items: start;
 }
 .heading {
-  font-size: clamp(30px, 4.5vw, 52px);
-  letter-spacing: -0.03em;
-  line-height: 1.1;
+  font-family: var(--font-hero);
+  text-transform: uppercase;
+  font-size: clamp(36px, 5.5vw, 62px);
+  letter-spacing: 0.01em;
+  line-height: 1.05;
   margin-bottom: 24px;
 }
 .hl { color: var(--accent); }
@@ -34,7 +36,7 @@
   border-radius: 4px;
   transition: color 0.2s, border-color 0.2s, background 0.2s;
 }
-.socialLink:hover { color: var(--accent); border-color: rgba(232,255,71,0.3); background: var(--accent-dim); }
+.socialLink:hover { color: var(--accent); border-color: rgba(157,184,209,0.3); background: var(--accent-dim); }
 .card {
   background: var(--bg3);
   border: 1px solid var(--border2);

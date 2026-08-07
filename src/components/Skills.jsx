@@ -6,9 +6,9 @@ export default function Skills() {
   return (
     <section id="skills" className={styles.section}>
       <div className="container">
-        <p className="section-label">Skills</p>
+        <p className="section-label">The Arsenal</p>
         <div className={styles.header}>
-          <h2 className={styles.heading}>What I Work<br /><span className={styles.hl}>With</span></h2>
+          <h2 className={styles.heading}>The Utility<br /><span className={styles.hl}>Belt</span></h2>
         </div>
         <div className={styles.grid}>
           {skills.map((group, i) => (

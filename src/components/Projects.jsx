@@ -5,7 +5,7 @@ import { GithubIcon } from './Icons';
 import { projects } from '../data';
 import styles from './Projects.module.css';
 
-const STATUS_COLOR = { "Completed": "#4ade80", "In Progress": "#e8ff47" };
+const STATUS_COLOR = { "Completed": "#4ade80", "In Progress": "#9db8d1" };
 
 export default function Projects() {
   const [active, setActive] = useState(null);
@@ -13,10 +13,10 @@ export default function Projects() {
   return (
     <section id="projects" className={styles.section}>
       <div className="container">
-        <p className="section-label">Projects</p>
+        <p className="section-label">Case Files</p>
         <div className={styles.header}>
-          <h2 className={styles.heading}>Things I've <span className={styles.hl}>Built</span></h2>
-          <p className={styles.sub}>Every project started as a personal frustration. Here's what came out of it.</p>
+          <h2 className={styles.heading}>Open <span className={styles.hl}>Cases</span></h2>
+          <p className={styles.sub}>Every case started as a personal frustration. Here's what came out of the investigation.</p>
         </div>
 
         <div className={styles.grid}>

@@ -1,20 +1,21 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #0a0a0a;
-  --bg2: #111111;
-  --bg3: #181818;
-  --border: #222222;
-  --border2: #2e2e2e;
-  --text: #f0ede8;
-  --text2: #8a8480;
-  --text3: #555050;
-  --accent: #e8ff47;
-  --accent2: #b8cc2a;
-  --accent-dim: rgba(232, 255, 71, 0.08);
-  --accent-dim2: rgba(232, 255, 71, 0.15);
-  --red: #ff4747;
+  --bg: #07080a;
+  --bg2: #0d0f12;
+  --bg3: #14171b;
+  --border: #20242a;
+  --border2: #2e333b;
+  --text: #eceff2;
+  --text2: #838d99;
+  --text3: #4a515c;
+  --accent: #9db8d1;
+  --accent2: #7695b3;
+  --accent-dim: rgba(157, 184, 209, 0.08);
+  --accent-dim2: rgba(157, 184, 209, 0.15);
+  --red: #c4303f;
   --font-display: 'Syne', sans-serif;
+  --font-hero: 'Bebas Neue', 'Syne', sans-serif;
   --font-mono: 'DM Mono', monospace;
 }
 
@@ -45,7 +46,7 @@ body {
   position: fixed;
   top: 0; left: 0;
   width: 36px; height: 36px;
-  border: 1px solid rgba(232,255,71,0.4);
+  border: 1px solid rgba(157,184,209,0.4);
   border-radius: 50%;
   pointer-events: none;
   z-index: 9998;
@@ -89,7 +90,7 @@ section { padding: 120px 0; }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   padding: 5px 10px;
-  border: 1px solid rgba(232,255,71,0.25);
+  border: 1px solid rgba(157, 184, 209, 0.25);
   border-radius: 2px;
   margin-bottom: 24px;
 }

@@ -1,8 +1,14 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { BatIcon } from './Icons';
 import styles from './Nav.module.css';
 
-const links = ['About', 'Projects', 'Skills', 'Contact'];
+const links = [
+  { id: 'about', label: 'The Man' },
+  { id: 'projects', label: 'Case Files' },
+  { id: 'skills', label: 'Arsenal' },
+  { id: 'contact', label: 'Signal' },
+];
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -15,7 +21,7 @@ export default function Nav() {
   }, []);
 
   const scrollTo = (id) => {
-    document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
     setOpen(false);
   };
 
@@ -23,17 +29,17 @@ export default function Nav() {
     <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.inner}>
         <a href="#" className={styles.logo} onClick={e => { e.preventDefault(); window.scrollTo({top:0,behavior:'smooth'}); }}>
-          <span className={styles.logoAccent}>A</span>dib
+          <BatIcon size={20} className={styles.logoBat} /> Adib
         </a>
         <ul className={styles.links}>
           {links.map(l => (
-            <li key={l}>
-              <button onClick={() => scrollTo(l)}>{l}</button>
+            <li key={l.id}>
+              <button onClick={() => scrollTo(l.id)}>{l.label}</button>
             </li>
           ))}
         </ul>
         <a href="mailto:adibahmed@iut-dhaka.edu" className={styles.cta}>
-          Hire Me
+          Signal Me
         </a>
         <button className={styles.burger} onClick={() => setOpen(!open)}>
           <span className={open ? styles.burgerOpen : ''} />
@@ -45,9 +51,9 @@ export default function Nav() {
           <motion.div className={styles.mobile}
             initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }}>
             {links.map(l => (
-              <button key={l} onClick={() => scrollTo(l)}>{l}</button>
+              <button key={l.id} onClick={() => scrollTo(l.id)}>{l.label}</button>
             ))}
-            <a href="mailto:adibahmed@iut-dhaka.edu">Hire Me →</a>
+            <a href="mailto:adibahmed@iut-dhaka.edu">Signal Me →</a>
           </motion.div>
         )}
       </AnimatePresence>

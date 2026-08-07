@@ -17,12 +17,12 @@ export default function Contact() {
   return (
     <section id="contact" className={styles.section}>
       <div className="container">
-        <p className="section-label">Contact</p>
+        <p className="section-label">Light the Signal</p>
         <div className={styles.grid}>
           <motion.div className={styles.left}
             initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
-            <div className="tag">Let's Talk</div>
-            <h2 className={styles.heading}>Got a role<br />or idea?<br /><span className={styles.hl}>Let's connect.</span></h2>
+            <div className="tag">Signal Gotham</div>
+            <h2 className={styles.heading}>Got a role<br />or idea?<br /><span className={styles.hl}>Send the signal.</span></h2>
             <p className={styles.sub}>I'm open to full-stack, backend, or CV engineering roles. Also always happy to chat about building products from scratch.</p>
             <div className={styles.social}>
               <a href={`mailto:${about.email}`} className={styles.socialLink}>
@@ -49,9 +49,9 @@ export default function Contact() {
               </div>
               <a href={`mailto:${about.email}?subject=Let's work together&body=Hi Adib,`}
                 className={styles.bigBtn}>
-                <Send size={18} /> Send a Message
+                <Send size={18} /> Send the Signal
               </a>
-              <p className={styles.note}>Or reach me on LinkedIn — I respond within 24 hours.</p>
+              <p className={styles.note}>Or reach me on LinkedIn — I respond faster than the Batphone.</p>
             </div>
           </motion.div>
         </div>

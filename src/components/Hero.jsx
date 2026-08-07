@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
-import { GithubIcon, LinkedInIcon } from './Icons';
+import { GithubIcon, LinkedInIcon, BatIcon } from './Icons';
 import { about } from '../data';
 import styles from './Hero.module.css';
 
@@ -34,27 +34,32 @@ export default function Hero() {
     <section className={styles.hero} id="hero">
       <div className={styles.grid} aria-hidden />
       <div className={styles.glow} aria-hidden />
+      <div className={styles.beam} aria-hidden />
+      <BatIcon size={520} className={styles.batMark} />
 
       <div className={`container ${styles.content}`}>
         <motion.div className={styles.tag}
           initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
           <span className={styles.dot} />
-          Available for opportunities
+          The signal is lit — available for work
         </motion.div>
 
         <h1 className={styles.name} ref={nameRef}>ADIB AHMED</h1>
-        <h2 className={styles.role} ref={roleRef}>Software Engineer &amp; Builder</h2>
+        <div className={styles.roleRow}>
+          <BatIcon size={22} className={styles.roleBat} />
+          <h2 className={styles.role} ref={roleRef}>Software Engineer &amp; Builder</h2>
+        </div>
 
         <motion.p className={styles.bio}
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9 }}>
-          I build software that solves problems I've personally run into. Final-year CSE student at IUT. Interested in CV, full-stack, and eventually — my own company.
+          No inheritance, no butler, no batcave — just late nights and shipped code. Backend AI Engineering Intern at FlyRank, final-year CSE student at IUT. Interested in computer vision, full-stack builds, and eventually, my own company.
         </motion.p>
 
         <motion.div className={styles.actions}
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.1 }}>
           <button className={styles.btnPrimary}
             onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
-            See My Work
+            Open the Case Files
           </button>
           <a href={about.github} target="_blank" rel="noreferrer" className={styles.btnGhost}>
             <GithubIcon size={16} /> GitHub
@@ -66,7 +71,7 @@ export default function Hero() {
 
         <motion.div className={styles.stats}
           initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.4 }}>
-          {[["4", "Projects Built"], ["3", "Problem Domains"], ["2025", "Graduating"]].map(([n, l]) => (
+          {[["4", "Cases Cracked"], ["4", "Problem Domains"], [about.graduating, "Graduating"]].map(([n, l]) => (
             <div key={l} className={styles.stat}>
               <span className={styles.statNum}>{n}</span>
               <span className={styles.statLabel}>{l}</span>

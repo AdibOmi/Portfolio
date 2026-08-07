@@ -8,7 +8,7 @@
 }
 .scrolled {
   padding: 16px 0;
-  background: rgba(10,10,10,0.92);
+  background: rgba(6,7,8,0.92);
   backdrop-filter: blur(16px);
   border-bottom-color: var(--border);
 }
@@ -21,6 +21,9 @@
   gap: 40px;
 }
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 22px;
@@ -29,7 +32,7 @@
   letter-spacing: -0.02em;
   margin-right: auto;
 }
-.logoAccent { color: var(--accent); }
+.logoBat { color: var(--accent); flex-shrink: 0; }
 .links {
   display: flex;
   list-style: none;
