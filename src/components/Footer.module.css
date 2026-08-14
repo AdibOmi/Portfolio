@@ -19,7 +19,6 @@
   font-size: 15px;
   color: var(--text);
 }
-.footerBat { color: var(--accent); }
 .copy {
   font-family: var(--font-mono);
   font-size: 11px;

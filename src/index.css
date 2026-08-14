@@ -58,6 +58,11 @@ body {
 
 a, button { cursor: none; }
 
+@media (hover: none), (pointer: coarse) {
+  body, a, button { cursor: auto; }
+  .cursor, .cursor-ring { display: none; }
+}
+
 ::selection { background: var(--accent); color: var(--bg); }
 
 ::-webkit-scrollbar { width: 4px; }

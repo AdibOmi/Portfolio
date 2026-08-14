@@ -1,11 +1,3 @@
-export function BatIcon({ size = 24, className }) {
-  return (
-    <svg width={size} height={size * 0.56} viewBox="0 0 100 56" fill="currentColor" className={className}>
-      <polygon points="2,28 38,6 50,14 62,6 98,28 66,50 50,36 34,50" />
-    </svg>
-  );
-}
-
 export function GithubIcon({ size = 16 }) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">

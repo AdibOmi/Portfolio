@@ -13,10 +13,10 @@ export default function Projects() {
   return (
     <section id="projects" className={styles.section}>
       <div className="container">
-        <p className="section-label">Case Files</p>
+        <p className="section-label">Projects</p>
         <div className={styles.header}>
-          <h2 className={styles.heading}>Open <span className={styles.hl}>Cases</span></h2>
-          <p className={styles.sub}>Every case started as a personal frustration. Here's what came out of the investigation.</p>
+          <h2 className={styles.heading}>Featured <span className={styles.hl}>Work</span></h2>
+          <p className={styles.sub}>Every project started as a problem I actually ran into. Here's what came out of solving it.</p>
         </div>
 
         <div className={styles.grid}>

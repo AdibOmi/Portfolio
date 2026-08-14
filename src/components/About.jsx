@@ -8,22 +8,19 @@ export default function About() {
   return (
     <section id="about" className={styles.about}>
       <div className="container">
-        <p className="section-label">The Man Behind the Mask</p>
+        <p className="section-label">About Me</p>
         <div className={styles.grid}>
           <motion.div className={styles.left}
             initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.6 }}>
             <div className={styles.photoWrap}>
-              <div className={styles.photoPlaceholder}>
-                <span>YOUR PHOTO HERE</span>
-                <small>Replace with your actual photo in /public/images/adib.jpg</small>
-              </div>
+              <img src="/images/adib.jpg" alt="Adib Ahmed" className={styles.photo} />
               <div className={styles.photoAccent} />
             </div>
           </motion.div>
 
           <motion.div className={styles.right}
             initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.6, delay: 0.15 }}>
-            <div className="tag">01 — Secret Identity</div>
+            <div className="tag">01 / Background</div>
             <h2 className={styles.heading}>I build things that<br /><span className={styles.hl}>fix real frustrations</span></h2>
             {about.bio.map((p, i) => (
               <p key={i} className={styles.para}>{p}</p>
