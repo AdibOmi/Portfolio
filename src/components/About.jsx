@@ -13,7 +13,7 @@ export default function About() {
           <motion.div className={styles.left}
             initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} transition={{ duration: 0.6 }}>
             <div className={styles.photoWrap}>
-              <img src="/images/adib.jpg" alt="Adib Ahmed" className={styles.photo} />
+              <img src="/images/adib.jpeg" alt="Adib Ahmed" className={styles.photo} />
               <div className={styles.photoAccent} />
             </div>
           </motion.div>

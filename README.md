@@ -17,7 +17,7 @@ npm run dev
 
 ### Images
 Add your images to `/public/images/`:
-- `adib.jpg` — your photo (used in About section)
+- `adib.jpeg` — your photo (used in About section)
 - `gainframe.png` — Gainframe screenshot
 - `crowd-control.png` — Crowd Control screenshot
 - `deja-view.png` — Deja View screenshot
