@@ -17,12 +17,12 @@ export const projects = [
   {
     id: "alfred",
     title: "Alfred",
-    tagline: "An AI desktop assistant that keeps you on schedule",
+    tagline: "An AI desktop assistant that guides you through any app, on command.",
     problem:
-      "Reminders scattered across notes apps and sticky notes are easy to set and easier to forget, and digging through your own filesystem for a file you know exists shouldn't take longer than the task itself.",
+      "Learning unfamiliar software or hunting through nested menus for a rarely-used feature breaks your focus and burns time, and most in-app help is either static documentation or missing entirely.",
     description:
-      "Alfred is an Electron-based AI desktop assistant that parses natural-language reminders into a visual deadline timeline, searches your local filesystem on command, and surfaces personal progress dashboards, backed by an LLM for context-aware chat.",
-    stack: ["Electron", "React", "TypeScript", "Node.js", "SQLite", "Claude API"],
+      "Alfred is an Electron-based AI desktop assistant that watches your screen, understands whatever app you're in, and walks you through any task step-by-step on command, powered by the Claude API for real-time, context-aware guidance across your entire desktop.",
+    stack: ["Electron", "React", "TypeScript", "Node.js", "Claude API"],
     github: "https://github.com/AdibOmi/Alfred",
     live: null,
     image: "/images/alfred.png",
