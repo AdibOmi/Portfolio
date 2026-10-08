@@ -99,5 +99,5 @@ export const about = {
   ],
   email: "adibomi885@gmail.com",
   github: "https://github.com/AdibOmi",
-  linkedin: "https://linkedin.com/in/adib-ahmed", // update with real URL
+  linkedin: "https://www.linkedin.com/in/adibahmed122",
 };
