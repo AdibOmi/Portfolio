@@ -36,13 +36,14 @@ export default function Projects() {
               </div>
 
               <div className={styles.imgWrap}>
-                <img src={p.image} alt={p.title}
-                  className={styles.img}
-                  onError={e => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
-                <div className={styles.imgFallback}>
-                  <span>{p.title}</span>
-                  <small>Add screenshot to /public/images/{p.id}.png</small>
-                </div>
+                {p.image ? (
+                  <img src={p.image} alt={p.title} className={styles.img} />
+                ) : (
+                  <div className={styles.imgFallback} aria-hidden>
+                    <span className={styles.fallbackTitle}>{p.title}</span>
+                    <small className={styles.fallbackStack}>{p.stack.slice(0, 3).join(' / ')}</small>
+                  </div>
+                )}
               </div>
 
               <div className={styles.cardBody}>

@@ -35,8 +35,8 @@ export default function About() {
                 <span className={styles.metaValue}>{about.degree}</span>
               </div>
               <div className={styles.metaItem}>
-                <span className={styles.metaLabel}>Graduating</span>
-                <span className={styles.metaValue}>{about.graduating}</span>
+                <span className={styles.metaLabel}>Graduated</span>
+                <span className={styles.metaValue}>{about.graduated}</span>
               </div>
             </div>
           </motion.div>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="1280" height="720">
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#20242a" stroke-width="0.6" opacity="0.55"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="110%" r="70%">
+    <stop offset="0" stop-color="#9db8d1" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#9db8d1" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9db8d1" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#9db8d1" stop-opacity="0"/>
+  </linearGradient>
+  <marker id="arrv" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 0L10 5L0 10z" fill="#8b7cf6"/>
+  </marker>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 0L10 5L0 10z" fill="#9db8d1"/>
+  </marker>
+</defs>
+<rect width="640" height="360" fill="#07080a"/>
+<rect width="640" height="360" fill="url(#grid)"/>
+<rect width="640" height="360" fill="url(#glow)"/>
+<path d="M70 66 V40 H96" fill="none" stroke="#9db8d1" stroke-width="2"/>
+<path d="M370 66 V40 H344" fill="none" stroke="#9db8d1" stroke-width="2"/>
+<path d="M70 294 V320 H96" fill="none" stroke="#9db8d1" stroke-width="2"/>
+<path d="M370 294 V320 H344" fill="none" stroke="#9db8d1" stroke-width="2"/>
+<circle cx="86" cy="58" r="4" fill="#c4303f"/>
+<text x="96" y="62" font-size="9" fill="#838d99" text-anchor="start" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="1.2">LIVE · LOCAL</text>
+<defs><linearGradient id="sil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c333c"/><stop offset="1" stop-color="#171b20"/></linearGradient></defs>
+<ellipse cx="220" cy="122" rx="28" ry="34" fill="none" stroke="#9db8d1" stroke-opacity="0.45" stroke-dasharray="3 4"/>
+<path d="M124 258 C 126 226, 144 206, 178 198 C 194 194, 202 190, 208 184 M232 184 C 238 190, 246 194, 262 198 C 296 206, 314 226, 316 258" fill="none" stroke="#9db8d1" stroke-opacity="0.45" stroke-dasharray="3 4"/>
+<text x="252" y="92" font-size="9" fill="#9db8d1" text-anchor="start" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="0.8">upright</text>
+<path d="M116 270 C 118 240, 136 220, 172 212 C 190 208, 200 204, 206 198 Q 220 210 234 198 C 240 204, 250 208, 268 212 C 304 220, 322 240, 324 270 Z" fill="url(#sil)" stroke="#9db8d1" stroke-opacity="0.35" stroke-width="1.2"/>
+<path d="M206 198 Q 220 222 234 198" fill="none" stroke="#0f1215" stroke-width="2"/>
+<path d="M214 214 v18 M226 214 v18" stroke="#3a424d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M150 232 C 146 246, 146 258, 150 268 M290 232 C 294 246, 294 258, 290 268" fill="none" stroke="#0f1215" stroke-width="1.6"/>
+<path d="M209 180 L 208 202 Q 220 210 232 202 L 231 180 Z" fill="#20262d"/>
+<g transform="rotate(-8 220 156)">
+<ellipse cx="191" cy="160" rx="5" ry="9" fill="#262c34" stroke="#9db8d1" stroke-opacity="0.35" stroke-width="1.2"/>
+<ellipse cx="249" cy="160" rx="5" ry="9" fill="#262c34" stroke="#9db8d1" stroke-opacity="0.35" stroke-width="1.2"/>
+<ellipse cx="220" cy="156" rx="29" ry="35" fill="url(#sil)" stroke="#9db8d1" stroke-opacity="0.35" stroke-width="1.2"/>
+<path d="M191 154 C 188 128, 204 118, 221 118 C 240 118, 254 130, 250 154 C 246 142, 236 134, 224 138 C 214 132, 200 138, 191 154 Z" fill="#0f1215"/>
+</g>
+<rect x="190" y="259" width="60" height="8" rx="2" fill="#2a3038" stroke="#2e333b"/>
+<ellipse cx="176" cy="263" rx="14" ry="7" fill="#262c34" stroke="#9db8d1" stroke-opacity="0.35" stroke-width="1.2"/>
+<ellipse cx="264" cy="263" rx="14" ry="7" fill="#262c34" stroke="#9db8d1" stroke-opacity="0.35" stroke-width="1.2"/>
+<line x1="172" y1="214" x2="268" y2="213" stroke="#9db8d1" stroke-width="1.4"/>
+<line x1="220.0" y1="213.5" x2="222" y2="171" stroke="#c4303f" stroke-width="1.4"/>
+<line x1="208" y1="158" x2="233" y2="155" stroke="#9db8d1" stroke-width="1.2"/>
+<circle cx="208" cy="158" r="3.5" fill="#07080a" stroke="#9db8d1" stroke-width="1.5"/>
+<circle cx="233" cy="155" r="3.5" fill="#07080a" stroke="#9db8d1" stroke-width="1.5"/>
+<circle cx="222" cy="171" r="3.5" fill="#07080a" stroke="#9db8d1" stroke-width="1.5"/>
+<circle cx="172" cy="214" r="3.5" fill="#07080a" stroke="#9db8d1" stroke-width="1.5"/>
+<circle cx="268" cy="213" r="3.5" fill="#07080a" stroke="#9db8d1" stroke-width="1.5"/>
+<path d="M220.0 191.5 A 22 22 0 0 0 217.0 192.5" fill="none" stroke="#c4303f"/>
+<text x="186.0" y="211.5" font-size="10" fill="#c4303f" text-anchor="start" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="0.5">12°</text>
+<rect x="84" y="268" width="272" height="10" rx="2" fill="#14171b" stroke="#2e333b"/>
+<rect x="92" y="278" width="256" height="34" fill="#0d0f12" stroke="#20242a"/>
+<rect x="314" y="244" width="20" height="24" rx="3" fill="#3a4350"/>
+<path d="M334 250 h5 a5 5 0 0 1 0 10 h-5" fill="none" stroke="#3a4350" stroke-width="3"/>
+<path d="M319 238 q3 -5 0 -10" fill="none" stroke="#4a515c" stroke-width="1.2"/>
+<path d="M324 238 q3 -5 0 -10" fill="none" stroke="#4a515c" stroke-width="1.2"/>
+<path d="M329 238 q3 -5 0 -10" fill="none" stroke="#4a515c" stroke-width="1.2"/>
+<rect x="400" y="52" width="200" height="76" rx="6" fill="#0d0f12" stroke="#2e333b" />
+<text x="416" y="74" font-size="9" fill="#4a515c" text-anchor="start" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="1.5">POSTURE</text>
+<text x="416" y="106" font-size="20" fill="#eceff2" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" letter-spacing="0">Slouching</text>
+<circle cx="580" cy="70" r="5" fill="#c4303f"/>
+<text x="584" y="112" font-size="10" fill="#c4303f" text-anchor="end" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="0.5">12° fwd</text>
+<rect x="400" y="140" width="200" height="76" rx="6" fill="#0d0f12" stroke="#2e333b" />
+<text x="416" y="162" font-size="9" fill="#4a515c" text-anchor="start" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="1.5">SCREEN DISTANCE</text>
+<text x="416" y="194" font-size="20" fill="#eceff2" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" letter-spacing="0">38 cm</text>
+<rect x="500" y="186" width="84" height="6" rx="3.0" fill="#2e333b"/>
+<rect x="500" y="186" width="34" height="6" rx="3.0" fill="#e0a040"/>
+<text x="584" y="206" font-size="10" fill="#e0a040" text-anchor="end" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="0.5">too close</text>
+<rect x="400" y="236" width="200" height="60" rx="8" fill="#07080a" stroke="#9db8d1" stroke-width="1.2"/>
+<text x="416" y="260" font-size="11" fill="#eceff2" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Hey. Spine. Remember it?</text>
+<text x="416" y="280" font-size="10" fill="#838d99" text-anchor="start" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="0.5">Sit back a little.</text>
+</svg>

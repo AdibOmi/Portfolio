@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="1280" height="720">
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#20242a" stroke-width="0.6" opacity="0.55"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="110%" r="70%">
+    <stop offset="0" stop-color="#9db8d1" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#9db8d1" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9db8d1" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#9db8d1" stop-opacity="0"/>
+  </linearGradient>
+  <marker id="arrv" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 0L10 5L0 10z" fill="#8b7cf6"/>
+  </marker>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 0L10 5L0 10z" fill="#9db8d1"/>
+  </marker>
+</defs>
+<rect width="640" height="360" fill="#07080a"/>
+<rect width="640" height="360" fill="url(#grid)"/>
+<rect width="640" height="360" fill="url(#glow)"/>
+<defs><clipPath id="row"><rect x="0" y="0" width="604" height="360"/></clipPath><linearGradient id="post" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#262b32"/><stop offset="1" stop-color="#121519"/></linearGradient></defs>
+<text x="36" y="44" font-size="21" fill="#eceff2" font-family="Georgia, 'Times New Roman', serif" font-weight="700">Deja View</text>
+<text x="36" y="60" font-size="9" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Never forget why you loved it.</text>
+<rect x="206" y="30" width="200" height="24" rx="4" fill="#14171b" stroke="#20242a"/>
+<text x="216" y="46" font-size="9" fill="#4a515c" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Search for a movie…</text>
+<rect x="412" y="30" width="50" height="24" rx="4" fill="#e5383b"/>
+<text x="437" y="46" font-size="9" fill="#fff" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Search</text>
+<circle cx="488" cy="42" r="11" fill="#14171b" stroke="#2e333b"/>
+<text x="488" y="46" font-size="8" fill="#eceff2" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">AA</text>
+<rect x="508" y="31" width="52" height="22" rx="11" fill="none" stroke="#2e333b"/>
+<text x="534" y="46" font-size="9" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Friends</text>
+<line x1="36" y1="78" x2="604" y2="78" stroke="#20242a"/>
+<text x="36" y="108" font-size="15" fill="#eceff2" font-family="Georgia, 'Times New Roman', serif" font-weight="700">Recommended For You</text>
+<text x="604" y="106" font-size="8" fill="#4a515c" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Based on movies you rated 8+</text>
+<g clip-path="url(#row)">
+<rect x="36" y="120" width="108" height="196" rx="6" fill="#0d0f12" stroke="#20242a" />
+<rect x="44" y="128" width="92" height="112" rx="3" fill="url(#post)"/>
+<rect x="50" y="172" width="8" height="40" fill="#3a414b"/>
+<rect x="60" y="150" width="8" height="62" fill="#3a414b"/>
+<rect x="70" y="182" width="8" height="30" fill="#3a414b"/>
+<rect x="80" y="138" width="8" height="74" fill="#3a414b"/>
+<rect x="90" y="164" width="8" height="48" fill="#3a414b"/>
+<rect x="100" y="156" width="8" height="56" fill="#3a414b"/>
+<rect x="110" y="176" width="8" height="36" fill="#3a414b"/>
+<text x="90.0" y="230" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0.6">INCEPTION</text>
+<text x="90.0" y="258" font-size="9.5" fill="#eceff2" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Inception</text>
+<text x="90.0" y="272" font-size="8" fill="#4a515c" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">IMDb: 8.8</text>
+<rect x="44" y="282" width="44" height="22" rx="4" fill="#9db8d1"/>
+<text x="66" y="296" font-size="8" fill="#07080a" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Watched</text>
+<rect x="92" y="282" width="44" height="22" rx="4" fill="#14171b"/>
+<text x="114" y="296" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" letter-spacing="0">Later</text>
+<rect x="156" y="120" width="108" height="196" rx="6" fill="#0d0f12" stroke="#20242a" />
+<rect x="164" y="128" width="92" height="112" rx="3" fill="url(#post)"/>
+<circle cx="210.0" cy="172" r="22" fill="#3a414b" opacity="0.6"/>
+<path d="M184.0 172 q10 -8 16 -2 l4 -6 l2 4 l2 -4 l4 6 q6 -6 16 2 q-12 -2 -14 8 q-4 -4 -8 0 q-2 -10 -22 -8z" fill="#0b0d10"/>
+<rect x="172" y="184" width="10" height="30" fill="#3a414b"/>
+<rect x="186" y="194" width="10" height="20" fill="#3a414b"/>
+<rect x="200" y="184" width="10" height="30" fill="#3a414b"/>
+<rect x="214" y="194" width="10" height="20" fill="#3a414b"/>
+<rect x="228" y="184" width="10" height="30" fill="#3a414b"/>
+<text x="210.0" y="230" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0.6">THE DARK KNIGHT</text>
+<text x="210.0" y="258" font-size="9.5" fill="#eceff2" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">The Dark Knight</text>
+<text x="210.0" y="272" font-size="8" fill="#4a515c" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">IMDb: 9.1</text>
+<rect x="164" y="282" width="44" height="22" rx="4" fill="#9db8d1"/>
+<text x="186" y="296" font-size="8" fill="#07080a" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Watched</text>
+<rect x="212" y="282" width="44" height="22" rx="4" fill="#14171b"/>
+<text x="234" y="296" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" letter-spacing="0">Later</text>
+<rect x="276" y="120" width="108" height="196" rx="6" fill="#0d0f12" stroke="#20242a" />
+<rect x="284" y="128" width="92" height="112" rx="3" fill="url(#post)"/>
+<circle cx="330.0" cy="180" r="26" fill="none" stroke="#3a414b" stroke-width="5"/>
+<circle cx="330.0" cy="180" r="12" fill="#3a414b"/>
+<text x="330.0" y="230" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0.6">INFINITY WAR</text>
+<text x="330.0" y="258" font-size="9.5" fill="#eceff2" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Infinity War</text>
+<text x="330.0" y="272" font-size="8" fill="#4a515c" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">IMDb: 8.4</text>
+<rect x="284" y="282" width="44" height="22" rx="4" fill="#9db8d1"/>
+<text x="306" y="296" font-size="8" fill="#07080a" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Watched</text>
+<rect x="332" y="282" width="44" height="22" rx="4" fill="#14171b"/>
+<text x="354" y="296" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" letter-spacing="0">Later</text>
+<rect x="396" y="120" width="108" height="196" rx="6" fill="#0d0f12" stroke="#20242a" />
+<rect x="404" y="128" width="92" height="112" rx="3" fill="url(#post)"/>
+<circle cx="450.0" cy="158" r="9" fill="#3a414b"/>
+<path d="M434.0 214 l4 -40 h24 l4 40z" fill="#3a414b"/>
+<circle cx="466.0" cy="190" r="10" fill="none" stroke="#4a525d" stroke-width="3"/>
+<text x="450.0" y="230" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0.6">WINTER SOLDIER</text>
+<text x="450.0" y="258" font-size="9.5" fill="#eceff2" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Winter Soldier</text>
+<text x="450.0" y="272" font-size="8" fill="#4a515c" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">IMDb: 7.7</text>
+<rect x="404" y="282" width="44" height="22" rx="4" fill="#9db8d1"/>
+<text x="426" y="296" font-size="8" fill="#07080a" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Watched</text>
+<rect x="452" y="282" width="44" height="22" rx="4" fill="#14171b"/>
+<text x="474" y="296" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" letter-spacing="0">Later</text>
+<rect x="516" y="120" width="108" height="196" rx="6" fill="#0d0f12" stroke="#20242a" />
+<rect x="524" y="128" width="92" height="112" rx="3" fill="url(#post)"/>
+<rect x="540" y="150" width="46" height="54" fill="#4a525d" transform="rotate(-8 563 177)"/>
+<rect x="544" y="154" width="38" height="36" fill="#22262c" transform="rotate(-8 563 177)"/>
+<text x="570.0" y="230" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0.6">MEMENTO</text>
+<text x="570.0" y="258" font-size="9.5" fill="#eceff2" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Memento</text>
+<text x="570.0" y="272" font-size="8" fill="#4a515c" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">IMDb: 8.4</text>
+<rect x="524" y="282" width="44" height="22" rx="4" fill="#9db8d1"/>
+<text x="546" y="296" font-size="8" fill="#07080a" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="0">Watched</text>
+<rect x="572" y="282" width="44" height="22" rx="4" fill="#14171b"/>
+<text x="594" y="296" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" letter-spacing="0">Later</text>
+</g>
+<rect x="36" y="324" width="568" height="3" rx="1.5" fill="#14171b"/>
+<rect x="36" y="324" width="190" height="3" rx="1.5" fill="#2e333b"/>
+<text x="36" y="352" font-size="15" fill="#eceff2" font-family="Georgia, 'Times New Roman', serif" font-weight="700">Watched</text>
+<rect x="548" y="337" width="56" height="20" rx="10" fill="none" stroke="#2e333b"/>
+<text x="576" y="351" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">See All (9)</text>
+</svg>

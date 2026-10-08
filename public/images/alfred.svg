@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="1280" height="720">
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#20242a" stroke-width="0.6" opacity="0.55"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="110%" r="70%">
+    <stop offset="0" stop-color="#9db8d1" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#9db8d1" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#9db8d1" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#9db8d1" stop-opacity="0"/>
+  </linearGradient>
+  <marker id="arrv" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 0L10 5L0 10z" fill="#8b7cf6"/>
+  </marker>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+    <path d="M0 0L10 5L0 10z" fill="#9db8d1"/>
+  </marker>
+</defs>
+<rect width="640" height="360" fill="#07080a"/>
+<rect width="640" height="360" fill="url(#grid)"/>
+<rect width="640" height="360" fill="url(#glow)"/>
+<rect x="60" y="40" width="520" height="290" rx="8" fill="#0d0f12" stroke="#2e333b" />
+<path d="M60 70 H580" stroke="#2e333b"/>
+<circle cx="78" cy="55" r="5" fill="#4a515c"/>
+<circle cx="94" cy="55" r="5" fill="#4a515c"/>
+<circle cx="110" cy="55" r="5" fill="#4a515c"/>
+<text x="320.0" y="59" font-size="10" fill="#4a515c" text-anchor="middle" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="0.5">Untitled — Editor</text>
+<text x="80" y="92" font-size="11" fill="#eceff2" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">File</text>
+<text x="134" y="92" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Edit</text>
+<text x="188" y="92" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">View</text>
+<text x="242" y="92" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Tools</text>
+<text x="296" y="92" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Help</text>
+<path d="M60 102 H580" stroke="#20242a"/>
+<rect x="72" y="104" width="150" height="150" rx="5" fill="#14171b" stroke="#2e333b" />
+<text x="86" y="126" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">New</text>
+<text x="86" y="149" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Open…</text>
+<text x="86" y="172" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Save</text>
+<text x="86" y="195" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Save As…</text>
+<rect x="76" y="203" width="142" height="22" rx="3" fill="#9db8d1" opacity="0.15"/>
+<rect x="73" y="200" width="148" height="28" rx="5" fill="none" stroke="#9db8d1" stroke-width="1.5"/>
+<text x="86" y="218" font-size="11" fill="#eceff2" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600" letter-spacing="0">Export…</text>
+<text x="86" y="241" font-size="11" fill="#838d99" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Print</text>
+<rect x="260" y="130" width="280" height="6" rx="3.0" fill="#20242a"/>
+<rect x="260" y="150" width="300" height="6" rx="3.0" fill="#20242a"/>
+<rect x="260" y="170" width="240" height="6" rx="3.0" fill="#20242a"/>
+<rect x="260" y="190" width="290" height="6" rx="3.0" fill="#20242a"/>
+<rect x="260" y="210" width="200" height="6" rx="3.0" fill="#20242a"/>
+<rect x="260" y="230" width="260" height="6" rx="3.0" fill="#20242a"/>
+<path d="M192 232 l0 20 l5 -5 l4 9 l4 -2 l-4 -9 l7 0 z" fill="#8b7cf6" stroke="#fff" stroke-width="1.2"/>
+<rect x="300" y="210" width="250" height="96" rx="8" fill="#07080a" stroke="#9db8d1" stroke-width="1.2"/>
+<circle cx="322" cy="234" r="10" fill="#9db8d1"/>
+<text x="322" y="238" font-size="11" fill="#07080a" text-anchor="middle" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="600" letter-spacing="0">A</text>
+<text x="340" y="238" font-size="9" fill="#9db8d1" text-anchor="start" font-family="'DM Mono', Consolas, 'Courier New', monospace" font-weight="400" letter-spacing="1.2">ALFRED · STEP 2 OF 4</text>
+<text x="316" y="266" font-size="12" fill="#eceff2" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">Open the File menu and</text>
+<text x="316" y="284" font-size="12" fill="#eceff2" text-anchor="start" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="400" letter-spacing="0">click “Export…”</text>
+<rect x="316" y="294" width="18" height="3" rx="1.5" fill="#9db8d1"/>
+<rect x="338" y="294" width="18" height="3" rx="1.5" fill="#9db8d1"/>
+<rect x="360" y="294" width="18" height="3" rx="1.5" fill="#2e333b"/>
+<rect x="382" y="294" width="18" height="3" rx="1.5" fill="#2e333b"/>
+<path d="M300 240 C 260 240, 242 244, 224 222" fill="none" stroke="#8b7cf6" stroke-width="1.4" stroke-dasharray="3 4" marker-end="url(#arrv)"/>
+</svg>

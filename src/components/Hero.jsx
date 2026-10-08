@@ -50,7 +50,7 @@ export default function Hero() {
 
         <motion.p className={styles.bio}
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9 }}>
-          Final-year CSE student at Islamic University of Technology. I solve problems I've actually run into with whatever tools fit, not chasing what's flashy, just what's needed. Currently focused on computer vision and full-stack engineering.
+          CSE graduate from Islamic University of Technology. I solve problems I've actually run into with whatever tools fit, not chasing what's flashy, just what's needed. Currently focused on computer vision and full-stack engineering.
         </motion.p>
 
         <motion.div className={styles.actions}
@@ -69,7 +69,7 @@ export default function Hero() {
 
         <motion.div className={styles.stats}
           initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.4 }}>
-          {[["4", "Projects Shipped"], ["4", "Problem Domains"], [about.graduating, "Graduating"]].map(([n, l]) => (
+          {[["5", "Projects Shipped"], ["5", "Problem Domains"], [about.graduated, "Graduated"]].map(([n, l]) => (
             <div key={l} className={styles.stat}>
               <span className={styles.statNum}>{n}</span>
               <span className={styles.statLabel}>{l}</span>
