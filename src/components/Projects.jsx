@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, ArrowRight } from 'lucide-react';
+import { ExternalLink, ArrowRight, Briefcase } from 'lucide-react';
 import { GithubIcon } from './Icons';
 import { projects } from '../data';
 import styles from './Projects.module.css';
 
-const STATUS_COLOR = { "Completed": "#4ade80", "In Progress": "#9db8d1" };
+const STATUS_COLOR = { "Live": "#4ade80", "In Progress": "#9db8d1" };
 
 export default function Projects() {
   const [active, setActive] = useState(null);
@@ -22,13 +22,16 @@ export default function Projects() {
         <div className={styles.grid}>
           {projects.map((p, i) => (
             <motion.div key={p.id}
-              className={`${styles.card} ${p.highlight ? styles.featured : ''} ${active === p.id ? styles.expanded : ''}`}
+              className={`${styles.card} ${p.highlight ? styles.featured : ''} ${p.client ? styles.client : ''} ${active === p.id ? styles.expanded : ''}`}
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}>
               <div className={styles.cardTop}>
-                <div className={styles.cardNum}>0{i + 1}</div>
+                <div className={styles.cardMeta}>
+                  <div className={styles.cardNum}>0{i + 1}</div>
+                  {p.client && <span className={styles.clientBadge}><Briefcase size={11} /> Client Work</span>}
+                </div>
                 <span className={styles.status} style={{ color: STATUS_COLOR[p.status] }}>
                   <span className={styles.statusDot} style={{ background: STATUS_COLOR[p.status] }} />
                   {p.status}

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="1280" height="720">
+<defs>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <path d="M24 0H0V24" fill="none" stroke="#20242a" stroke-width="0.6" opacity="0.55"/>
+  </pattern>
+  <radialGradient id="glow" cx="50%" cy="110%" r="70%">
+    <stop offset="0" stop-color="#9db8d1" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#9db8d1" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#9db8d1" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#9db8d1" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="640" height="360" fill="#07080a"/>
+<rect width="640" height="360" fill="url(#grid)"/>
+<rect width="640" height="360" fill="url(#glow)"/>
+
+<!-- browser -->
+<rect x="32" y="30" width="414" height="300" rx="8" fill="#0d0f12" stroke="#2e333b"/>
+<path d="M32 60 H446" stroke="#20242a"/>
+<circle cx="48" cy="45" r="3.5" fill="#2e333b"/>
+<circle cx="60" cy="45" r="3.5" fill="#2e333b"/>
+<circle cx="72" cy="45" r="3.5" fill="#2e333b"/>
+<rect x="110" y="37" width="250" height="16" rx="8" fill="#07080a" stroke="#20242a"/>
+<rect x="121" y="44" width="6" height="5" rx="1" fill="none" stroke="#4ade80" stroke-width="1"/>
+<path d="M122.2 44 v-1.6 a1.8 1.8 0 0 1 3.6 0 V44" fill="none" stroke="#4ade80" stroke-width="1"/>
+<text x="133" y="48.5" font-size="8" fill="#838d99" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="0.6">dent-o-shine.com</text>
+
+<!-- nav -->
+<path d="M56 72 c0-4 4-6 7-4 c3-2 7 0 7 4 c0 4-1 6-1.6 9.5 c-.5 3.5-1 7-2.6 7 c-1.6 0-1.6-5-2.8-5 c-1.2 0-1.2 5-2.8 5 c-1.6 0-2.1-3.5-2.6-7 c-.6-3.5-1.6-5.5-1.6-9.5z" fill="none" stroke="#9db8d1" stroke-width="1.3"/>
+<text x="78" y="83" font-size="11" fill="#eceff2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700">Dent-O-Shine</text>
+<text x="254" y="82" font-size="8" fill="#838d99" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Services</text>
+<text x="296" y="82" font-size="8" fill="#838d99" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Hours</text>
+<text x="328" y="82" font-size="8" fill="#838d99" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Contact</text>
+<rect x="370" y="70" width="58" height="17" rx="8.5" fill="none" stroke="#2e333b"/>
+<rect x="372" y="72" width="24" height="13" rx="6.5" fill="#9db8d1" fill-opacity="0.15" stroke="#9db8d1" stroke-opacity="0.5"/>
+<text x="384" y="81.5" font-size="7.5" fill="#eceff2" text-anchor="middle" font-family="'DM Mono', Consolas, 'Courier New', monospace">EN</text>
+<text x="412" y="82" font-size="8" fill="#838d99" text-anchor="middle" font-family="'Nirmala UI', 'Hind Siliguri', 'Vrinda', sans-serif">বাংলা</text>
+<path d="M32 98 H446" stroke="#20242a"/>
+
+<!-- hero -->
+<text x="56" y="124" font-size="8" fill="#9db8d1" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="1.5">MULTI SPECIALITY DENTAL CARE</text>
+<text x="56" y="150" font-size="20" fill="#eceff2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-0.3">Healthy smiles,</text>
+<text x="56" y="174" font-size="20" fill="#eceff2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700" letter-spacing="-0.3">right in Uttara.</text>
+<text x="56" y="194" font-size="9" fill="#838d99" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Braces, root canals, implants and more.</text>
+<rect x="56" y="206" width="118" height="24" rx="4" fill="#9db8d1"/>
+<path d="M65 223 l1-3 a5.2 5.2 0 1 1 2.1 2 z" fill="none" stroke="#07080a" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="81" y="221.5" font-size="8.5" fill="#07080a" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="700">Book on WhatsApp</text>
+<rect x="182" y="206" width="80" height="24" rx="4" fill="none" stroke="#2e333b"/>
+<text x="222" y="221.5" font-size="8.5" fill="#bfc6cf" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Our services</text>
+
+<!-- tooth -->
+<circle cx="364" cy="166" r="62" fill="url(#halo)"/>
+<circle cx="364" cy="166" r="46" fill="none" stroke="#20242a" stroke-dasharray="3 5"/>
+<path d="M340 146 c0-15 14-21 24-14 c10-7 24-1 24 14 c0 14-4 22-6 33 c-2 14-4 28-9.5 28 c-5.5 0-5.5-20-8.5-20 c-3 0-3 20-8.5 20 c-5.5 0-7.5-14-9.5-28 c-2-11-6-19-6-33z" fill="#9db8d1" fill-opacity="0.08" stroke="#eceff2" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M348 146 c1-6 6-8 10-6" fill="none" stroke="#9db8d1" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M398 124 l2 5 l5 2 l-5 2 l-2 5 l-2-5 l-5-2 l5-2z" fill="#9db8d1"/>
+<path d="M327 186 l1.4 3.4 l3.4 1.4 l-3.4 1.4 l-1.4 3.4 l-1.4-3.4 l-3.4-1.4 l3.4-1.4z" fill="#9db8d1" opacity="0.7"/>
+<circle cx="405" cy="190" r="1.8" fill="#9db8d1" opacity="0.6"/>
+
+<!-- services -->
+<path d="M32 248 H446" stroke="#20242a"/>
+<text x="56" y="266" font-size="8" fill="#4a515c" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="1.5">SERVICES</text>
+<g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="8.5" fill="#bfc6cf" text-anchor="middle">
+  <rect x="56" y="274" width="54" height="20" rx="3" fill="#07080a" stroke="#2e333b"/><text x="83" y="287">Braces</text>
+  <rect x="116" y="274" width="70" height="20" rx="3" fill="#07080a" stroke="#2e333b"/><text x="151" y="287">Root Canal</text>
+  <rect x="192" y="274" width="60" height="20" rx="3" fill="#07080a" stroke="#2e333b"/><text x="222" y="287">Implants</text>
+  <rect x="258" y="274" width="68" height="20" rx="3" fill="#07080a" stroke="#2e333b"/><text x="292" y="287">Whitening</text>
+  <rect x="332" y="274" width="58" height="20" rx="3" fill="#07080a" stroke="#2e333b"/><text x="361" y="287">Scaling</text>
+</g>
+<circle cx="61" cy="313" r="4" fill="none" stroke="#838d99" stroke-width="1"/>
+<path d="M61 310.8 V313 H62.8" fill="none" stroke="#838d99" stroke-width="1"/>
+<text x="70" y="316" font-size="7.5" fill="#838d99" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="1">SAT – THU · 5 – 10 PM</text>
+<path d="M200 316.5 c-3-3.5-4-5-4-7 a4 4 0 0 1 8 0 c0 2-1 3.5-4 7z" fill="none" stroke="#838d99" stroke-width="1"/>
+<circle cx="200" cy="309.5" r="1.2" fill="#838d99"/>
+<text x="209" y="316" font-size="7.5" fill="#838d99" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="1">SECTOR 11, UTTARA</text>
+
+<!-- phone: whatsapp booking -->
+<text x="540" y="38" font-size="8" fill="#9db8d1" text-anchor="middle" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="1.2">ONE-TAP BOOKING</text>
+<rect x="470" y="48" width="140" height="282" rx="18" fill="#0d0f12" stroke="#2e333b"/>
+<rect x="523" y="56" width="34" height="5" rx="2.5" fill="#2e333b"/>
+<path d="M470 96 H610" stroke="#20242a"/>
+<circle cx="490" cy="80" r="9" fill="#9db8d1" fill-opacity="0.12" stroke="#9db8d1" stroke-opacity="0.5"/>
+<path d="M486.5 77 c0-2 2-3 3.5-2 c1.5-1 3.5 0 3.5 2 c0 2-.6 3-1 5 c-.3 2-.6 3.5-1.3 3.5 c-.7 0-.7-2.5-1.2-2.5 c-.5 0-.5 2.5-1.2 2.5 c-.7 0-1-1.5-1.3-3.5 c-.4-2-1-3-1-5z" fill="none" stroke="#eceff2" stroke-width="0.9"/>
+<text x="505" y="78" font-size="9" fill="#eceff2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600">Dent-O-Shine</text>
+<circle cx="507" cy="86.5" r="2" fill="#4ade80"/>
+<text x="512" y="89" font-size="7" fill="#4ade80" font-family="'DM Mono', Consolas, 'Courier New', monospace">online</text>
+
+<g font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="8">
+  <rect x="502" y="108" width="98" height="34" rx="6" fill="#9db8d1" fill-opacity="0.12" stroke="#9db8d1" stroke-opacity="0.35"/>
+  <text x="509" y="121" fill="#eceff2">Hi! Can I book a scaling</text>
+  <text x="509" y="133" fill="#eceff2">appointment?</text>
+
+  <rect x="480" y="152" width="118" height="46" rx="6" fill="#16191e" stroke="#2e333b"/>
+  <text x="487" y="165" fill="#bfc6cf">Of course. We're open</text>
+  <text x="487" y="177" fill="#bfc6cf">Sat – Thu, 5 – 10 PM.</text>
+  <text x="487" y="189" fill="#bfc6cf">Does 7 PM tomorrow work?</text>
+
+  <rect x="532" y="208" width="68" height="22" rx="6" fill="#9db8d1" fill-opacity="0.12" stroke="#9db8d1" stroke-opacity="0.35"/>
+  <text x="539" y="222" fill="#eceff2">Perfect, thanks!</text>
+</g>
+
+<rect x="480" y="242" width="120" height="44" rx="6" fill="#07080a" stroke="#4ade80" stroke-opacity="0.45"/>
+<text x="489" y="257" font-size="7" fill="#4a515c" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="1.2">APPOINTMENT</text>
+<text x="489" y="274" font-size="9.5" fill="#eceff2" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-weight="600">Tomorrow · 7:00 PM</text>
+<path d="M583 266 l3.5 3.5 l7 -7" fill="none" stroke="#4ade80" stroke-width="1.6"/>
+
+<rect x="480" y="298" width="96" height="20" rx="10" fill="#07080a" stroke="#2e333b"/>
+<text x="490" y="311" font-size="7.5" fill="#4a515c" font-family="'Segoe UI', Helvetica, Arial, sans-serif">Message</text>
+<circle cx="590" cy="308" r="10" fill="#9db8d1"/>
+<path d="M586 308 H593 M590 305 l3 3 l-3 3" fill="none" stroke="#07080a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

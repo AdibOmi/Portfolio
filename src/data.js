@@ -71,7 +71,23 @@ export const projects = [
     github: "https://github.com/AdibOmi/Deja-View",
     live: "https://getdejaview.netlify.app",
     image: "/images/dejaview.svg",
-    status: "Completed",
+    status: "Live",
+    highlight: false,
+  },
+  {
+    id: "dent-o-shine",
+    title: "Dent-O-Shine",
+    tagline: "A bilingual website for a multi-speciality dental clinic in Uttara, Dhaka.",
+    problem:
+      "The clinic had no web presence, so patients had no easy way to look up its treatments, visiting hours, or location, or to get in touch before walking in.",
+    description:
+      "Dent-O-Shine is the website for Dr. Ayesha Akter's dental clinic. It presents the clinic's treatments, from braces and root canals to implants and whitening, along with chamber hours, location, and one-tap WhatsApp contact for booking appointments, in both English and Bangla.",
+    stack: ["React", "Vite", "Cloudflare Pages"],
+    github: null,
+    live: "https://dent-o-shine.com/",
+    image: "/images/dentoshine.svg",
+    status: "Live",
+    client: true,
     highlight: false,
   },
 ];
