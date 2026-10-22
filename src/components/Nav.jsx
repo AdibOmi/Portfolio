@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { about } from '../data';
 import styles from './Nav.module.css';
 
 const links = [
@@ -36,6 +37,9 @@ export default function Nav() {
               <button onClick={() => scrollTo(l.id)}>{l.label}</button>
             </li>
           ))}
+          <li>
+            <a href={about.resume} target="_blank" rel="noreferrer">Resume</a>
+          </li>
         </ul>
         <button className={styles.burger} onClick={() => setOpen(!open)}>
           <span className={open ? styles.burgerOpen : ''} />
@@ -49,6 +53,7 @@ export default function Nav() {
             {links.map(l => (
               <button key={l.id} onClick={() => scrollTo(l.id)}>{l.label}</button>
             ))}
+            <a href={about.resume} target="_blank" rel="noreferrer" onClick={() => setOpen(false)}>Resume</a>
           </motion.div>
         )}
       </AnimatePresence>

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, FileText } from 'lucide-react';
 import { GithubIcon, LinkedInIcon } from './Icons';
 import { about } from '../data';
 import styles from './Hero.module.css';
@@ -64,6 +64,9 @@ export default function Hero() {
           </a>
           <a href={about.linkedin} target="_blank" rel="noreferrer" className={styles.btnGhost}>
             <LinkedInIcon size={16} /> LinkedIn
+          </a>
+          <a href={about.resume} target="_blank" rel="noreferrer" className={styles.btnGhost}>
+            <FileText size={16} /> Resume
           </a>
         </motion.div>
 

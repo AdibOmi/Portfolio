@@ -37,7 +37,8 @@
   list-style: none;
   gap: 8px;
 }
-.links button {
+.links button,
+.links a {
   background: none;
   border: none;
   color: var(--text2);
@@ -48,7 +49,9 @@
   border-radius: 4px;
   transition: color 0.2s, background 0.2s;
 }
-.links button:hover { color: var(--text); background: var(--bg3); }
+.links a { display: block; text-decoration: none; }
+.links button:hover,
+.links a:hover { color: var(--text); background: var(--bg3); }
 .burger {
   display: none;
   flex-direction: column;
@@ -74,7 +77,8 @@
   border-top: 1px solid var(--border);
   gap: 4px;
 }
-.mobile button {
+.mobile button,
+.mobile a {
   background: none;
   border: none;
   color: var(--text2);
@@ -87,8 +91,10 @@
   border-bottom: 1px solid var(--border);
   transition: color 0.2s;
 }
-.mobile button:last-child { border-bottom: none; }
-.mobile button:hover { color: var(--accent); }
+.mobile a { text-decoration: none; }
+.mobile > :last-child { border-bottom: none; }
+.mobile button:hover,
+.mobile a:hover { color: var(--accent); }
 @media (max-width: 768px) {
   .links { display: none; }
   .burger { display: flex; margin-left: auto; }
