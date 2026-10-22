@@ -179,4 +179,15 @@
 .scroll:hover { border-color: var(--accent); color: var(--accent); }
 @media (max-width: 600px) {
   .stats { gap: 28px; }
+  .actions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .btnPrimary { grid-column: 1 / -1; }
+  .btnGhost {
+    justify-content: center;
+    padding: 12px 8px;
+    font-size: 13px;
+  }
 }

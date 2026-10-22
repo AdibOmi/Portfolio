@@ -6,8 +6,8 @@ export const projects = [
     problem:
       "Early-stage founders and small teams don't have a full sales headcount, so the manual grunt work of prospecting and outreach either doesn't happen or eats the time they should be spending building.",
     description:
-      "Outpace is an agentic SDR platform that ingests a sales rep's own research guide, email template, and outreach cadence, then autonomously researches prospects, drafts personalized outreach, and manages follow-up sequences, replacing the manual grunt work of early-stage sales.",
-    stack: ["React", "FastAPI", "PostgreSQL", "Node.js"],
+      "Outpace is an agentic SDR platform that ingests a sales rep's own research guide, email template, and outreach cadence, then autonomously researches prospects, drafts personalized outreach, and manages follow-up sequences for small teams, replacing the manual grunt work of early-stage sales.",
+    stack: ["React", "Node.js", "FastAPI", "PostgreSQL"],
     github: "https://github.com/AdibOmi/Outpace",
     live: null,
     image: "/images/outpace.svg",
@@ -21,8 +21,8 @@ export const projects = [
     problem:
       "Learning unfamiliar software or hunting through nested menus for a rarely-used feature breaks your focus and burns time, and most in-app help is either static documentation or missing entirely.",
     description:
-      "Alfred is an Electron-based AI desktop assistant that watches your screen, understands whatever app you're in, and walks you through any task step-by-step on command, powered by the Claude API for real-time, context-aware guidance across your entire desktop.",
-    stack: ["Electron", "React", "TypeScript", "Node.js", "Claude API"],
+      "Alfred is an Electron desktop assistant that sits as a floating, always-on-top icon. On command, it uses a vision-enabled LLM to read your screen, understand whatever app you're in, and guide you through the task step-by-step, powered by the Claude API's vision capabilities.",
+    stack: ["Electron", "React", "TypeScript", "Claude API (Vision)"],
     github: "https://github.com/AdibOmi/Alfred",
     live: null,
     image: "/images/alfred.svg",
@@ -36,8 +36,8 @@ export const projects = [
     problem:
       "Long coding sessions wreck posture and screen distance without anyone noticing until it's already a problem, and most fixes are either intrusive or need hardware you don't have.",
     description:
-      "SlouchFix watches you through your webcam while you code, tracks facial landmarks to tell when you're slouching or leaning too close to the screen, and nudges you before your back starts filing complaints. All detection runs on your machine: no cloud, no uploads, no footage saved.",
-    stack: ["Python", "OpenCV", "MediaPipe Face Mesh", "scikit-learn", "XGBoost"],
+      "SlouchFix watches you through your webcam while you code, tracks facial landmarks to detect slouching or unsafe screen distance in real time, and sends a non-intrusive alert before your back starts filing complaints. All detection runs on your machine: no cloud, no uploads, no footage saved.",
+    stack: ["Python", "OpenCV", "MediaPipe", "scikit-learn", "XGBoost"],
     github: "https://github.com/AdibOmi/SlouchFix",
     live: null,
     image: "/images/slouchfix.svg",
@@ -51,7 +51,7 @@ export const projects = [
     problem:
       "Dental clinics still run on handwritten prescriptions, so staff end up typing every patient's details into the system by hand, which is slow, repetitive, and full of typos.",
     description:
-      "RootRecord is a patient management system for dental clinics, covering records, appointments, and billing. The doctor takes a picture of a handwritten prescription and RootRecord reads it, pulls out the patient's details, and fills in the record automatically, so nobody has to retype it.",
+      "RootRecord is a patient management system for dental clinics, covering records, appointments, and billing, with role-based access for clinic staff. The doctor takes a picture of a handwritten prescription and RootRecord reads it, pulls out the patient's details, and fills in the record automatically, so nobody has to retype it.",
     stack: ["React", "TypeScript", "FastAPI", "PostgreSQL", "Docker"],
     github: "https://github.com/AdibOmi/RootRecord",
     live: null,
@@ -62,12 +62,12 @@ export const projects = [
   {
     id: "deja-view",
     title: "Deja View",
-    tagline: "Track what you've watched and get suggestions for what to watch next.",
+    tagline: "A personal movie and TV journal that remembers what you've watched and explains what to watch next.",
     problem:
       "It's hard to remember what you've actually watched, whether it's worth a rewatch, or what to put on next, and recommendations rarely account for your real taste.",
     description:
-      "Deja View is a movie and show tracking platform where you rate and review what you've watched. It uses your ratings to suggest what to watch next, helps you decide what's worth a rewatch, and lets you share picks with friends.",
-    stack: ["React", "FastAPI", "SQLAlchemy", "PostgreSQL", "OMDb & TMDB APIs"],
+      "Deja View is a personal movie and TV journal for rating, reviewing, and logging rewatches. Its recommendations explain why each pick suits you, a \"Surprise me\" button finds something you haven't seen, and AI-written trivia gives you something to share with friends.",
+    stack: ["React", "Hono", "SQLite", "Claude API"],
     github: "https://github.com/AdibOmi/Deja-View",
     live: "https://deja-view.adibomi885.workers.dev",
     image: "/images/dejaview.svg",
@@ -93,13 +93,10 @@ export const projects = [
 ];
 
 export const skills = [
-  { category: "Languages", items: ["Python", "JavaScript", "TypeScript", "C++", "Dart"] },
-  { category: "Frontend", items: ["React", "React Native", "Flutter", "Electron"] },
-  { category: "Backend", items: ["FastAPI", "Node.js", "SQLAlchemy"] },
-  { category: "Databases", items: ["PostgreSQL", "Supabase", "SQLite"] },
-  { category: "Machine Learning", items: ["scikit-learn", "XGBoost"] },
-  { category: "AI & Agentic Tooling", items: ["OpenAI API", "Google Gemini", "Claude API", "OpenCV", "MediaPipe"] },
-  { category: "Tools", items: ["Git", "GitHub", "Figma"] },
+  { category: "Programming Languages", items: ["Python", "JavaScript", "TypeScript", "C++"] },
+  { category: "Frameworks & Databases", items: ["React", "Flutter", "Electron", "FastAPI", "Node.js", "PostgreSQL", "Supabase"] },
+  { category: "AI / ML", items: ["OpenAI API", "Claude API", "OpenCV", "scikit-learn"] },
+  { category: "Tools", items: ["Git", "Docker"] },
 ];
 
 export const about = {
@@ -110,7 +107,7 @@ export const about = {
   graduated: "2026",
   bio: [
     "I like solving problems I've actually run into, using whatever's in my toolkit to get it done, not chasing what's flashy or trendy, just what's actually needed. I'm always looking for what can be improved, and that keeps me iterating long after the first version works.",
-    "I'm wrapping up a Backend AI Engineering internship at FlyRank, where I've worked on APIs, data pipelines, and system integrations. Before that, I built fitness-tracking features into a Flutter app at Battery Low Interactive, alongside a growing focus on computer vision and full-stack engineering.",
+    "I recently finished a Backend AI Engineering internship at FlyRank, where I worked on backend APIs and data pipelines, and presented my AI assistant Alfred as my capstone project. Before that, I built fitness-tracking features into a Flutter app at Battery Low Interactive, alongside a growing focus on computer vision and full-stack engineering.",
     "Just a laptop, a lot of coffee, and an eye on eventually building something of my own. Open to backend, frontend, or full-stack roles where I can ship real things fast.",
   ],
   email: "adibomi885@gmail.com",

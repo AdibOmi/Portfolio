@@ -34,6 +34,7 @@
 }
 .links {
   display: flex;
+  align-items: center;
   list-style: none;
   gap: 8px;
 }
@@ -49,7 +50,7 @@
   border-radius: 4px;
   transition: color 0.2s, background 0.2s;
 }
-.links a { display: block; text-decoration: none; }
+.links a { display: block; text-decoration: none; line-height: normal; }
 .links button:hover,
 .links a:hover { color: var(--text); background: var(--bg3); }
 .burger {
