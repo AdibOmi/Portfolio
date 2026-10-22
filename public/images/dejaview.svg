@@ -22,7 +22,7 @@
 <rect x="110" y="37" width="250" height="16" rx="8" fill="#07080a" stroke="#20242a"/>
 <rect x="121" y="44" width="6" height="5" rx="1" fill="none" stroke="#4ade80" stroke-width="1"/>
 <path d="M122.2 44 v-1.6 a1.8 1.8 0 0 1 3.6 0 V44" fill="none" stroke="#4ade80" stroke-width="1"/>
-<text x="133" y="48.5" font-size="8" fill="#838d99" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="0.6">getdejaview.netlify.app</text>
+<text x="133" y="48.5" font-size="8" fill="#838d99" font-family="'DM Mono', Consolas, 'Courier New', monospace" letter-spacing="0.6">deja-view.adibomi885.workers.dev</text>
 
 <!-- nav -->
 <text x="50" y="84" font-size="15" fill="#eceff2" font-family="Georgia, 'Times New Roman', serif" font-weight="700">Deja View</text>

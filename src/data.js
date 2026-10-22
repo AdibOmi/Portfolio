@@ -69,7 +69,7 @@ export const projects = [
       "Deja View is a movie and show tracking platform where you rate and review what you've watched. It uses your ratings to suggest what to watch next, helps you decide what's worth a rewatch, and lets you share picks with friends.",
     stack: ["React", "FastAPI", "SQLAlchemy", "PostgreSQL", "OMDb & TMDB APIs"],
     github: "https://github.com/AdibOmi/Deja-View",
-    live: "https://getdejaview.netlify.app",
+    live: "https://deja-view.adibomi885.workers.dev",
     image: "/images/dejaview.svg",
     status: "Live",
     highlight: false,
